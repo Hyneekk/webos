@@ -1,0 +1,19 @@
+.mainPage{
+    background-color: burlywood;
+    border-style: double;
+    text-align: left;
+}
+header{
+    text-align: center;
+}
+.image{
+    text-align: center;
+}
+.cervenyOhraniceny{
+    border-style: double;
+    border-color: red;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600pxs;
+    align-items: center;
+}
