@@ -92,15 +92,22 @@ main{
     div {
         background: radial-gradient(var(--secondary), var(--background));
         padding-bottom: 200px;
-        border-radius: var(--corner-radius);
+        border-radius: var(--corner-radius) var(--corner-radius) 0 0;
     }
     button{
         width: 100%;
+        border-radius: 0 0 var(--corner-radius) var(--corner-radius);
+        height: 12%;
+        background-color: var(--secondary);
+        border-style: none;
+        color: var(--textColor);
+        font-family: consolas;
+        font-size: large;
     }
 }
 
 .randomText{
-    background-color: #ffffff06;
+    background-color: var(--surface);
     border-radius: var(--corner-radius);
     padding: 12px;
     margin-block: 12px;
